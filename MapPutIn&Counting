@@ -42,7 +42,7 @@ public class Solution {
     }
 
 }
-/*
+/* ИЛИ
 HashMap<String, Integer> result = new HashMap<String, Integer>();
         for (int i = 0; i < list.size(); i++) {
             String tempString = list.get(i);
