@@ -42,4 +42,16 @@ public class Solution {
     }
 
 }
+/*
+HashMap<String, Integer> result = new HashMap<String, Integer>();
+        for (int i = 0; i < list.size(); i++) {
+            String tempString = list.get(i);
 
+            if (!result.containsKey(tempString)) {
+                result.put(tempString, 1);
+            } else {
+                result.put(tempString, result.get(tempString) +1);
+            }
+        }
+        return result;
+        */
