@@ -31,3 +31,35 @@ public class Solution {
 
     }
 }
+/*
+package com.javarush.task.task10.task1019;
+
+import java.io.*;
+import java.util.*;
+import java.util.Map;
+
+/* 
+Функциональности маловато!
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        HashMap<Integer, String> map = new LinkedHashMap<Integer, String>();
+
+        while (true) {
+
+            String id = reader.readLine();
+            if (id.isEmpty())break;
+            String name = reader.readLine();
+            map.put( Integer.parseInt(id), name);
+
+        }
+
+        for (Map.Entry<Integer, String> pair : map.entrySet()){
+            System.out.println(pair.getKey() + " " +  pair.getValue());
+        }
+
+    }
+}
+*/
